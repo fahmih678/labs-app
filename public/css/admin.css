@@ -1,0 +1,131 @@
+
+.admin-dash{
+    background-color: #fff;
+}
+
+.main-navbar{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.nav-hamburger{
+    color: black;
+}
+
+.dashboard-text{
+    margin-top: 20px !important;
+}
+
+.dashboard-text .dashboard-desc-one {
+    margin-bottom: 0;
+}
+
+.card-layout{
+    margin-top: 25px;
+}
+
+.card-reservation, .card-laboratory, .card-users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-reservation, .card-laboratory, .card-users{
+    width: 250px;
+    height: 120px;
+    background-color: #FAFAFA;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+}
+
+.reservation-desc-total, .reservation-desc-title, .laboratory-desc-title, .laboratory-desc-total, .users-desc-title, .users-desc-total{
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+
+/* Users */
+
+.admin-users{
+    background-color: #fff;
+}
+
+.new-user-title, .user-title{
+    margin-top: 20px;
+}
+
+.new-user-table-lay, .user-table-lay{
+    width: 100%;
+    height: auto;
+    background-color: #FAFAFA;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+}
+
+.new-user-table, .user-table{
+    background-color: #fff;
+    border-top: none;
+}
+
+.btn-status{
+    background-color: #FCF5B6;
+    color: black;
+}
+
+
+/* End of Users */
+
+/* Laboratory */
+
+.admin-laboratory{
+    background-color: #fff;
+}
+
+.laboratory-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.laboratory-content{
+    width: 100%;
+        height: auto;
+        background-color: #FAFAFA;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 7px;
+}
+
+.laboratory-table{
+    background-color: #fff;
+    border-top: none;
+}
+
+.laboratory-des{
+    max-width: 200px;
+}
+
+/* End of Laboratory */
+
+/* Reservation */
+
+.admin-reservation{
+    background-color: #fff;
+}
+
+.reservation-title{
+    margin-top: 20px;
+}
+
+.reservation-table{
+        width: 100%;
+            height: auto;
+            background-color: #FAFAFA;
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 7px;
+}
+
+/* End of Reservation */

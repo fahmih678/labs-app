@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body{
+    background-color: #eaeaea;
+}
+
+/* Navbar */
+.main-navbar{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.nav-hamburger{
+    color: black;
+}
+
+/* End of Navbar */
+
+/* Dashboard */
+
+.dash-mem{
+    background-color: #fff;
+}
+
+.dashboard-text {
+    margin-top: 20px !important;
+}
+
+.dashboard-text .dashboard-desc-one {
+    margin-bottom: 0;
+}
+
+.card-layout {
+    margin-top: 25px;
+}
+
+.card-reservation,
+.card-laboratory,
+.card-users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-reservation,
+.card-laboratory,
+.card-users {
+    width: 250px;
+    height: 120px;
+    background-color: #FAFAFA;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+}
+
+.reservation-desc-total,
+.reservation-desc-title,
+.laboratory-desc-title,
+.laboratory-desc-total,
+.users-desc-title,
+.users-desc-total {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+/* End of Dashboard */
+
+/* Profile */
+.profile-title{
+    font-family: "poppins", sans-serif;
+    color: #fff;
+}
+
+.profile-lay-avatar, .profile-data-lay{
+    height: 60vh;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.profile-avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.profile-avatar-img{
+    width: 70%;
+}
+
+.profile-avatar-title{
+    margin-top: 15px;
+}
+
+.profile-data-lay{
+    margin-left: 20px;
+}
+
+.profile-data-form{
+    margin-top: 30px;
+}
+
+/* End of Profile */
+
+
+/* Reservation */
+
+.reservation-title{
+    font-family: "poppins", sans-serif;
+    color: #fff;
+}
+
+.reservation-lay{
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.reservation-data-form{
+    margin: 30px 0;
+}
+
+/* End of Reservation */
+
+
+/* History */
+
+.history-title{
+    font-family: "poppins", sans-serif;
+    color: #fff;
+}
+
+.history-lay {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.history-data-form {
+    margin: 30px 0;
+}
+
+.history-in-process{
+    font-family: "poppins", sans-serif;
+}
+
+.history-res-title{
+    font-family: "poppins", sans-serif;
+    margin-top: 20px;
+}
+
+/* End of history */

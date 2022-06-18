@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Homepage */
+
+.homepage-layout{
+    height: 90vh;
+}
+
+.homepage-des-lay, .homepage-img-lay{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-des{
+    margin-left: 50px;
+}
+
+.homepage-title{
+    margin-bottom: 20px;
+}
+
+.homepage-text{
+    margin-bottom: 40px;
+}
+
+.homepage-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.homepage-btn{
+    text-decoration: none;
+    background-color: rgb(128, 182, 253);
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.homepage-btn:hover{
+    background-color: #fff;
+    color: rgb(128, 182, 253);
+    border: 1px solid rgb(167, 166, 166);
+}
+
+/* End of Homepage */
+
+
+/* Schedule page */
+
+.schedule-page{
+    margin-bottom: 40px;
+}
+
+.schedule-border{
+    border-width: 2px;
+}
+
+.schedule-content-one{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.schedule-content-status{
+    padding: 5px 10px;
+    background-color: rgb(128, 182, 253);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.edit-status-2{
+    margin-left: 25px;
+}
+
+.edit-status-3{
+    margin-left: 15px;
+}
+
+.bar-layout{
+    display: flex;
+    margin: 10px 0;
+}
+
+.schedule-drop{
+    border: 1px solid rgb(192, 188, 188);
+}
+
+.drop-stats{
+    margin-left: 15px;
+}
+
+/* End of Schedule page */
+
+
+/* Room */
+.room-page{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.room-title-top{
+    margin-bottom: 35px;
+}
+
+.room-card-lay{
+    padding: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.room-status {
+    width: max-content;
+    padding: 3px 10px;
+    background-color: rgb(128, 182, 253);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.room-title{
+    font-weight: bold;
+}
+
+.room-open{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-text a{
+    text-decoration: none;
+}
+
+.card-body .room-book{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* End of Room */
+
+
+/* About */
+.about-page{
+    margin: 70px 0;
+}
+.about-border{
+    border-width: 3px;
+    width: 15%;
+}
+.social-email, .social-wa, .social-insta{
+    display: flex;
+}
+.social-email-des, .social-wa-des, .social-insta-des{
+    margin-left: 5px;
+}
+/* End of About */
+
+/* Footer */
+.footer-page{
+    height: 25vh;
+    background-color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-top{
+    display: flex;
+    justify-content: center;
+}
+.footer-top li{
+    list-style: none;
+    margin-right: 10px;
+}
+.footer-bottom-des{
+    max-width: 700px;
+    margin: auto;
+    font-family: "poppins", sans-serif;
+    font-size: 13px;
+}
+/* End of Footer */
+
+@media screen and (max-width: 576px){
+    .homepage-des-lay,
+        .homepage-img-lay {
+            height: auto;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-bottom: 25px;
+        }
+        .homepage-des-lay{
+            order: 2;
+        }
+        .homepage-img-lay{
+            order: 1;
+            margin-top: 20px;
+        }
+        .homepage-des {
+            margin-left: 0;
+        }
+}

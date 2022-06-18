@@ -32,6 +32,17 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/login', 'PagesController::login');
+$routes->get('/member', 'MemberController::index');
+$routes->get('/member-profile', 'MemberController::profile');
+$routes->get('/room-reservation', 'MemberController::reservation');
+$routes->get('/reservation-history', 'MemberController::history');
+
+$routes->get('/admin', 'AdminController::index');
+$routes->get('/admin-users', 'AdminController::users');
+$routes->get('/admin-laboratory', 'AdminController::laboratory');
+$routes->get('/admin-reservation', 'AdminController::reservation');
+
 
 /*
  * --------------------------------------------------------------------
