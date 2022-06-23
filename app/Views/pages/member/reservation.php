@@ -11,27 +11,44 @@
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="laboratory">Laboratory</label>
-                                <input type="text" class="form-control" id="laboratory" name="laboratory" placeholder="Software Engineering">
+                                <select class="form-control" id="laboratory">
+                                    <option>Software Engineering</option>
+                                    <option>Multimedia Studio</option>
+                                    <option>Computer Network</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="start">Start time</label>
+                                <select class="form-control" id="start">
+                                    <option>06.00</option>
+                                    <option>08.00</option>
+                                </select>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <div class="form-group">
                                     <label for="date">Date</label>
-                                    <input type="text" class="form-control" id="date" name="date" placeholder="Sunday, May 22, 2022">
+                                    <select class="form-control" id="date">
+                                        <option>Sunday, May 22, 2022</option>
+                                        <option>Saturday, May 16, 2022</option>
+                                        <option>Friday, May 10, 2022</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <label for="starttime">Start time</label>
-                                <input type="text" class="form-control" id="starttime" name="starttime" placeholder="08:00">
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <label for="endtime">End time</label>
-                                <input type="text" class="form-control" id="endtime" name="endtime" placeholder="11:00">
+                                <div class="form-group">
+                                    <label for="endtime">End time</label>
+                                    <select class="form-control" id="endtime">
+                                        <option>11.00</option>
+                                        <option>12.00</option>
+                                        <option>13.00</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
