@@ -17,4 +17,11 @@ class PagesController extends BaseController
         ];
         return view("pages/login");
     }
+    public function daftar()
+    {
+        $data = [
+            "title" => "Sign Up Page"
+        ];
+        return view("pages/daftar");
+    }
 }
