@@ -147,4 +147,8 @@ body{
     margin-top: 20px;
 }
 
+.btn-status {
+    background-color: #FCF5B6;
+    color: black;
+}
 /* End of history */

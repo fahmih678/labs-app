@@ -143,6 +143,11 @@
     font-size: 20px;
 }
 
+.modal-img{
+    width: 100%;
+    object-fit: contain;
+}
+
 /* End of Room */
 
 

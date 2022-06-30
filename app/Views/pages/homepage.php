@@ -122,8 +122,8 @@
                         <h6 class="room-open">Buka 08.00 - 15.00</h6>
                         <img src="/img/room.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, est? <span><a href="#">Detail Fasilitas</a></span></p>
-                            <h6><a href="#" class="room-book">Pesan</a></h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, est?</p>
+                            <h6><a href="#" class="room-book" data-bs-toggle="modal" data-bs-target="#exampleModal">Details</a></h6>
                         </div>
                     </div>
                 </div>
@@ -136,8 +136,8 @@
                         <h6 class="room-open">Buka 08.00 - 15.00</h6>
                         <img src="/img/room.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, est? <span><a href="#">Detail Fasilitas</a></span></p>
-                            <h6><a href="#" class="room-book">Pesan</a></h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, est?</p>
+                            <h6><a href="#" class="room-book" data-bs-toggle="modal" data-bs-target="#exampleModal">Details</a></h6>
                         </div>
                     </div>
                 </div>
@@ -150,9 +150,52 @@
                         <h6 class="room-open">Buka 08.00 - 15.00</h6>
                         <img src="/img/room.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, est? <span><a href="#">Detail Fasilitas</a></span></p>
-                            <h6><a href="#" class="room-book">Pesan</a></h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, est?</p>
+                            <h6><a href="#" class="room-book" data-bs-toggle="modal" data-bs-target="#exampleModal">Details</a></h6>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Detail modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg  modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Multimedia Studio</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="/img/homepage-img.jpg" alt="" class="modal-img">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="modal-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla recusandae possimus minima dolorum mollitia, quisquam alias, harum ipsam magni, commodi sed eaque ea nesciunt temporibus aperiam quam asperiores illo consectetur vitae laboriosam repellendus rem qui quo. Consectetur aliquid voluptates deserunt autem ipsam quos ipsum enim quaerat excepturi. Soluta, consectetur nesciunt reiciendis nobis debitis atque sint ratione quam quos sit quisquam numquam praesentium? Porro pariatur voluptatibus officia unde blanditiis id autem!</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h5 class="modal-facility mb-4">Facility</h6>
+                                <div class="col-md-3">
+                                    <img src="/img/homepage-img.jpg" alt="" class="modal-img">
+                                    <h6 class="text-center mt-2">10 Computers</h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/img/homepage-img.jpg" alt="" class="modal-img">
+                                    <h6 class="text-center mt-2">5 Camera</h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/img/homepage-img.jpg" alt="" class="modal-img">
+                                    <h6 class="text-center mt-2">2 Tripod</h6>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/img/homepage-img.jpg" alt="" class="modal-img">
+                                    <h6 class="text-center mt-2">1 LCD</h6>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Booking</button>
                     </div>
                 </div>
             </div>

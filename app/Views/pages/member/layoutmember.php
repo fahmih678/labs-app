@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="<?= base_url("stisla/assets/css/style.css") ?>">
     <link rel="stylesheet" href="<?= base_url("stisla/assets/css/components.css") ?>">
 
+    <!-- Data Tables -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
+
     <link rel="stylesheet" href="<?= base_url("css/member.css") ?>">
 </head>
 
@@ -31,6 +35,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="<?= base_url("stisla/assets/js/stisla.js") ?>"></script>
+
+    <!-- data Tables -->
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#example').DataTable();
+        });
+    </script>
 
     <!-- Template JS File -->
     <script src="<?= base_url("stisla/assets/js/scripts.js") ?>"></script>
