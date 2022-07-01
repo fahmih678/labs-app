@@ -8,7 +8,7 @@
                 <div class="col">
                     <div class="laboratory-header">
                         <h1 class="laboratory-title">Laboratory</h1>
-                        <a href="" class="btn btn-primary">Add New</a>
+                        <a href="/add-lab" class="btn btn-primary">Add New</a>
                     </div>
                 </div>
             </div>

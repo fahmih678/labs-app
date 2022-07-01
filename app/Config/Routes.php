@@ -43,6 +43,8 @@ $routes->get('/admin', 'AdminController::index');
 $routes->get('/admin-users', 'AdminController::users');
 $routes->get('/admin-laboratory', 'AdminController::laboratory');
 $routes->get('/admin-reservation', 'AdminController::reservation');
+$routes->get('/add-lab', 'AdminController::addlab');
+
 
 
 /*

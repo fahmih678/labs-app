@@ -34,4 +34,11 @@ class AdminController extends BaseController
         ];
         return view("pages/admin/reservation", $data);
     }
+    public function addlab()
+    {
+        $data = [
+            "title" => "Admin Page || Add Lab"
+        ];
+        return view("pages/admin/addlab", $data);
+    }
 }

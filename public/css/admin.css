@@ -107,6 +107,27 @@
     max-width: 200px;
 }
 
+.add-lab-layout{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.add-lab-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-lab-header-des{
+    font-weight: normal;
+}
+
+.add-lab-form{
+    margin-top: 25px;
+}
+
 /* End of Laboratory */
 
 /* Reservation */
